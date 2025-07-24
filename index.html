@@ -5,80 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>JetfragBall - Tout pour le jeu</title>
   <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Roboto', sans-serif;
-      background: linear-gradient(to right, #102B4E, #BD1E2D);
-      color: white;
-    }
-    header {
-      background: #0B1C39;
-      text-align: center;
-      padding: 2rem 1rem;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.4);
-    }
-    header img {
-      height: 100px;
-      margin-bottom: 1rem;
-    }
-    h1 {
-      font-family: 'Anton', sans-serif;
-      font-size: 3rem;
-      margin: 0;
-    }
-    nav {
-      display: flex;
-      justify-content: center;
-      background-color: #BD1E2D;
-      padding: 0.75rem;
-      gap: 2rem;
-    }
-    nav a {
-      color: white;
-      font-weight: bold;
-      text-decoration: none;
-      font-size: 1.1rem;
-      transition: 0.3s;
-    }
-    nav a:hover {
-      color: #FFD700;
-    }
-    .container {
-      max-width: 1000px;
-      margin: auto;
-      padding: 2rem;
-      animation: fadeIn 1s ease;
-    }
-    section {
-      margin-bottom: 3rem;
-    }
-    h2 {
-      color: #FFD700;
-      font-size: 2rem;
-      font-family: 'Anton', sans-serif;
-      border-bottom: 2px solid #FFD700;
-      padding-bottom: 0.5rem;
-    }
-    p, li {
-      font-size: 1.1rem;
-      line-height: 1.7;
-    }
-    ul {
-      padding-left: 1.5rem;
-    }
-    footer {
-      background: #0B1C39;
-      text-align: center;
-      padding: 1rem;
-      font-size: 0.9rem;
-      color: #ccc;
-    }
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-  </style>
 </head>
 <body>
   <header>
@@ -90,28 +16,55 @@
     <a href="#presentation">Présentation</a>
     <a href="#regles">Règles</a>
     <a href="#roles">Rôles</a>
+    <a href="#evenements">Événements</a>
+    <a href="#galerie">Galerie</a>
     <a href="#contact">Contact</a>
+    <a href="#inscription">Inscription</a>
   </nav>
   <div class="container">
     <section id="presentation">
       <h2>Présentation</h2>
-      <p>Le JetfragBall est un sport de nouvelle génération, inspiré par la passion des sports US et l’énergie du jeu pur. Il combine les qualités du football américain, du handball, du basketball et du tag rugby dans un univers dynamique, sans violence, mais 100 % adrénaline. Un seul mot d’ordre : <strong>Tout pour le jeu.</strong></p>
+      <p>Le JetfragBall est un sport de nouvelle génération...</p>
     </section>
     <section id="regles">
-      <h2>Règles du Jeu</h2>
-      <p>Les joueurs portent des flags détachables à la ceinture. Quand un flag est arraché, le joueur est stoppé. Le terrain est divisé en trois zones colorées (Red, Yellow, Green), chacune ayant une stratégie et un impact sur le jeu. Les paniers de face permettent de marquer des points par des tirs précis.</p>
+      <h2>Règles Complètes</h2>
+      <p>Le terrain est divisé en trois zones...</p>
     </section>
     <section id="roles">
       <h2>Rôles des Joueurs</h2>
       <ul>
-        <li><strong>Strickers</strong> : Experts du tir et du scoring, ils visent les paniers avec agilité.</li>
-        <li><strong>Trackers</strong> : Défenseurs rapides et vifs, ils arrachent les flags et brisent les percées.</li>
-        <li><strong>Leaders</strong> : Maîtres du jeu, ils lisent la stratégie et coordonnent les actions collectives.</li>
+        <li><strong>Strickers</strong>...</li>
+        <li><strong>Trackers</strong>...</li>
+        <li><strong>Leaders</strong>...</li>
       </ul>
+    </section>
+    <section id="evenements">
+      <h2>Événements à venir</h2>
+      <p>📅 <strong>Tournoi Découverte</strong>...</p>
+    </section>
+    <section id="galerie">
+      <h2>Galerie</h2>
+      <div class="gallery">
+        <img src="action1.jpg" alt="Action JetfragBall">
+        <img src="action2.jpg" alt="Match intense">
+        <img src="action3.jpg" alt="Vue du terrain">
+      </div>
     </section>
     <section id="contact">
       <h2>Contact</h2>
-      <p>Tu veux rejoindre l’aventure JetfragBall ? Participer à un match ? Organiser un événement ? Contacte-nous à : <a href="mailto:jetfragball@gmail.com" style="color:#FFD700;">jetfragball@gmail.com</a></p>
+      <p>Tu veux rejoindre l’aventure JetfragBall ?...</p>
+    </section>
+    <section id="inscription">
+      <h2>Inscription / Newsletter</h2>
+      <form name="contact-form">
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="name" required />
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required />
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+        <button type="submit">Envoyer</button>
+      </form>
     </section>
   </div>
   <footer>
