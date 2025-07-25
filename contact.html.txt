@@ -1,0 +1,5 @@
+<div class="container">
+  <h2>Contact</h2>
+  <p>📧 Email : <a href="mailto:jetfragball@gmail.com">jetfragball@gmail.com</a></p>
+  <p>📱 Suivez-nous bientôt sur Instagram / Facebook</p>
+</div>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>JetfragBall - Règles</title>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    /* (copier le même style que dans index.html pour garder l’uniformité) */
+  </style>
+</head>
+<body>
+  <!-- Même header, nav, footer -->
+  <!-- ... -->
+  <div class="container">
+    <h2>Règles complètes</h2>
+    <ul>
+      <li><strong>Objectif :</strong> Marquer des points en lançant le ballon dans les paniers frontaux.</li>
+      <li><strong>Terrain :</strong> Divisé en 3 zones (Verte, Jaune, Rouge).</li>
+      <li><strong>Durée :</strong> 2 mi-temps de 15 minutes.</li>
+      <li><strong>Flags :</strong> Chaque joueur porte 2 flags détachables à la ceinture. Retirer un flag arrête l’action.</li>
+      <li><strong>Points :</strong> Un tir réussi = 3 points depuis la zone rouge, 2 points depuis la jaune, 1 point dans la verte.</li>
+      <li><strong>Déplacements :</strong> Interdiction de courir avec le ballon plus de 3 pas.</li>
+      <li><strong>Fautes :</strong> Contacts, blocages, interceptions physiques = sanction ou exclusion temporaire.</li>
+    </ul>
+  </div>
+</body>
+</html>

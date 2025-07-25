@@ -1,0 +1,7 @@
+<div class="container">
+  <h2>Galerie</h2>
+  <p>Voici quelques images du JetfragBall :</p>
+  <img src="action1.jpg" alt="Action 1" width="300">
+  <img src="action2.jpg" alt="Action 2" width="300">
+  <img src="action3.jpg" alt="Action 3" width="300">
+</div>

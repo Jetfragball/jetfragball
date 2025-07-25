@@ -1,0 +1,8 @@
+<div class="container">
+  <h2>Événements à venir</h2>
+  <p>
+    📅 <strong>Tournoi Découverte</strong> – Août 2025, Paris<br>
+    📍 Stade<br>
+    ✉️ Inscriptions ouvertes – contactez-nous pour participer ou organiser un match !
+  </p>
+</div>

@@ -1,0 +1,8 @@
+<div class="container">
+  <h2>Rôles des joueurs</h2>
+  <ul>
+    <li><strong>Strickers :</strong> Les scoreurs, agiles au lancer.</li>
+    <li><strong>Trackers :</strong> Défenseurs spécialisés en retrait de flags.</li>
+    <li><strong>Leaders :</strong> Stratèges, visionnaires et coordinateurs de l’équipe.</li>
+  </ul>
+</div>
